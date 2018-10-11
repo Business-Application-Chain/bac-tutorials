@@ -55,14 +55,14 @@ public class Puppy {
 public class Puppy{
     int puppyAge;
     public Puppy(String name){ 
-        //这个构造器器仅有⼀一个参数:name 
-        System.out.println("⼩小狗的名字是: " + name );
+        //这个构造器仅有一个参数:name 
+        System.out.println("⼩狗的名字是: " + name );
     }
     public void setAge( int age ){
         puppyAge = age;
     }
     public int getAge( ){
-        System.out.println("⼩小狗的年年龄为: " + puppyAge ); 
+        System.out.println("⼩狗的年龄为: " + puppyAge ); 
         return puppyAge;
     }
 }
@@ -74,7 +74,7 @@ public class Puppy{
 
 ```
 小狗的名字是: tommy
-小狗的年年龄为: 2
+小狗的年龄为: 2
 变量值: 2
 ```
 

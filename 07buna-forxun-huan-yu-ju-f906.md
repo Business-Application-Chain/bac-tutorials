@@ -17,10 +17,10 @@ for (var I = 0; I <10; I++) {:
 <img src="./assets/for.png" alt = "for" title = "for-png" width = "400" height="400"/>
 
 ```
-for letter in 'Python': \#第⼀一个实例例  
-   print '当前字⺟母:', letter fruits = ['banana', 'apple', 'mango’];
-for fruit in fruits: #第⼆二个实例例
-   print '当前⽔水果:', fruit print "Good bye!”;
+for letter in 'Python': \#第⼀个实例  
+   print '当前字母:', letter fruits = ['banana', 'apple', 'mango’];
+for fruit in fruits: #第⼆个实例
+   print '当前⽔果:', fruit print "Good bye!”;
 ```
 
 运行实例

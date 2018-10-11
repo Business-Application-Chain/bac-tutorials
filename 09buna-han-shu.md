@@ -19,7 +19,7 @@ return \[表达式\]结束函数，选择性地返回一个值给调用方。不
 
 ```
 def functionname( parameters ) { 
-    "函数_⽂文档字符串串”
+    "函数_⽂档字符串”
     function_suite
     return [expression]
 }
@@ -33,8 +33,8 @@ fun printme( str ):
     "打印任何传入的字符串” 
      print str;
      return;
-#调⽤用函数
-printme("我要调⽤用户⾃定义函数!"); 
+#调用函数
+printme("我要调用户⾃定义函数!"); 
 printme("再次调用同一函数”);
 ```
 
@@ -43,7 +43,7 @@ printme("再次调用同一函数”);
 输出结果为：
 
 ```
-我要调⽤用户⾃定义函数!
+我要调用户⾃定义函数!
 再次调用同一函数
 ```
 
