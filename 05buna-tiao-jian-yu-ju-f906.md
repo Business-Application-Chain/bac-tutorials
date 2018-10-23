@@ -22,19 +22,25 @@ else:
 else为可选语句，当需要在条件不成立时执行内容则可以执行相关语句，具体例子如下:
 
 ```
-var name = ‘bill’;  
-if name == ‘buns': //判断变量否为'python’
-    print 'welcome boss’; //并输出欢迎信息
-else:
-  print name; //条件不成⽴时输出变量名称
+var name = "bill";
+if (name == "buns") //判断变量否为python
+   print "welcome boss"; //并输出欢迎信息
+else
+   print name; //条件不成⽴时输出变量名称
 ```
 
-运行实例
+<!-- 本地 -->
+[运行实例>>](http://127.0.0.1:4000/run.html?model=Buna5_1)
+<!-- 测试 -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html) -->
+<!-- 生产 -->
+<!-- [运行实例>>](http://buna.bacx.io/run.html) -->
+
 
 输出结果为：
 
 ```
-Bill //输出结果
+bill
 ```
 
 

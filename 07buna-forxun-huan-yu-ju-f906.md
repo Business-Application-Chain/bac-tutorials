@@ -17,27 +17,24 @@ for (var I = 0; I <10; I++) {:
 <img src="./assets/for.png" alt = "for" title = "for-png" width = "400" height="400"/>
 
 ```
-for letter in 'Python': \#第⼀个实例  
-   print '当前字母:', letter fruits = ['banana', 'apple', 'mango’];
-for fruit in fruits: #第⼆个实例
-   print '当前⽔果:', fruit print "Good bye!”;
+for (var i=0;i<3;i=i+1){ //第⼀个实例
+    print i;
+}
 ```
 
-运行实例
+<!-- 本地 -->
+[运行实例>>](http://127.0.0.1:4000/run.html?model=Buna7_1)
+<!-- 测试 -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html) -->
+<!-- 生产 -->
+<!-- [运行实例>>](http://buna.bacx.io/run.html) -->
 
 输出结果为：
 
 ```
-当前字母: P
-当前字母: y
-当前字⺟: t
-当前字⺟: h
-当前字⺟: o
-当前字⺟: n
-当前⽔果: banana
-当前⽔果: apple
-当前⽔果: mango 
-Good bye!
+0
+1
+2
 ```
 
 

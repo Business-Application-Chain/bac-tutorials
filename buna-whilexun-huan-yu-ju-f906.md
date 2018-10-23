@@ -17,24 +17,29 @@ while(判断条件) {
 
 ```
 var count = 0;
-while (count <9):
-    print 'The count is:', count count = count + 1 ;
-
-print "Good bye!
+while (count <9){
+   print "The count is:"+count ;
+   count = count + 1 ;}
+print "Good bye!";
 ```
 
-运行实例
+<!-- 本地 -->
+[运行实例>>](http://127.0.0.1:4000/run.html?model=Buna6_1)
+<!-- 测试 -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html) -->
+<!-- 生产 -->
+<!-- [运行实例>>](http://buna.bacx.io/run.html) -->
 
 ```
-The count is: 0
-The count is: 1
-The count is: 2
-The count is: 3
-The count is: 4
-The count is: 5
-The count is: 6
-The count is: 7
-The count is: 8
+The count is:0
+The count is:1
+The count is:2
+The count is:3
+The count is:4
+The count is:5
+The count is:6
+The count is:7
+The count is:8
 Good bye!
 ```
 

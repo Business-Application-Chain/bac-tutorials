@@ -25,7 +25,12 @@ print miles;
 print name;
 ```
 
-###### 运行实例》
+<!-- 本地 -->
+[运行实例>>](http://127.0.0.1:4000/run.html?model=Buna3_1)
+<!-- 测试 -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html) -->
+<!-- 生产 -->
+<!-- [运行实例>>](http://buna.bacx.io/run.html) -->
 
 以上实例例中，1000.0和"John"分别赋值给miles，name变量。
 

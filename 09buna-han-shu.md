@@ -28,17 +28,22 @@ def functionname( parameters ) {
 **实例：**
 
 ```
-#定义函数  
-fun printme( str ):
-    "打印任何传入的字符串” 
-     print str;
-     return;
-#调用函数
+//定义函数
+fun printme(str){
+   //打印任何传入的字符串
+   print str;
+}
+//调用函数
 printme("我要调用户⾃定义函数!"); 
-printme("再次调用同一函数”);
+printme("再次调用同一函数");
 ```
 
-运行实例
+<!-- 本地 -->
+[运行实例>>](http://127.0.0.1:4000/run.html?model=Buna9_1)
+<!-- 测试 -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html) -->
+<!-- 生产 -->
+<!-- [运行实例>>](http://buna.bacx.io/run.html) -->
 
 输出结果为：
 

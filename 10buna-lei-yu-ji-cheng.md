@@ -42,8 +42,8 @@ public class Dog {
 下⾯是一个构造⽅法示例:
 
 ```
-public class Puppy {
-    public init(){
+class Puppy {
+    init(){
 
     } 
 }
@@ -52,30 +52,36 @@ public class Puppy {
 **实例:**
 
 ```
-public class Puppy{
-    int puppyAge;
-    public Puppy(String name){ 
-        //这个构造器仅有一个参数:name 
-        System.out.println("⼩狗的名字是: " + name );
-    }
-    public void setAge( int age ){
-        puppyAge = age;
-    }
-    public int getAge( ){
-        System.out.println("⼩狗的年龄为: " + puppyAge ); 
-        return puppyAge;
-    }
+class Puppy{
+    init(name){ 
+   //这个构造器仅有一个参数:name 
+       print "⼩狗的名字是: " + name;
+   }
+   setAge(age){
+       this.puppyAge = age;
+   }
+   getAge(){
+       print "⼩狗的年龄为: " + this.puppyAge+"岁"; 
+       return this.puppyAge;
+   }
 }
+var puppy = Puppy("哈士奇");
+puppy.setAge(1);
+puppy.getAge();
 ```
 
-运行实例
+<!-- 本地 -->
+[运行实例>>](http://127.0.0.1:4000/run.html?model=Buna10_1)
+<!-- 测试 -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html) -->
+<!-- 生产 -->
+<!-- [运行实例>>](http://buna.bacx.io/run.html) -->
 
 输出结果为：
 
 ```
-小狗的名字是: tommy
-小狗的年龄为: 2
-变量值: 2
+⼩狗的名字是: 哈士奇
+⼩狗的年龄为: 1岁
 ```
 
 
