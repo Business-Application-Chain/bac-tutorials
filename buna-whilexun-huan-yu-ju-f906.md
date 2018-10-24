@@ -1,6 +1,6 @@
-# Buna While循环语句
+# bună While循环语句
 
-Buna编程中while语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务。其基本形式为:
+bună编程中while语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务。其基本形式为:
 
 ```
 while(判断条件) {
@@ -26,9 +26,9 @@ print "Good bye!";
 <!-- 本地 -->
 <!-- [运行实例>>](http://127.0.0.1:4000/run.html?model=Buna6_1) -->
 <!-- 测试 -->
-<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna6_1) -->
+[运行实例>>](http://10.0.248.222:86/run.html?model=Buna6_1)
 <!-- 生产 -->
-[运行实例>>](http://buna.bacx.io/run.html?model=Buna6_1)
+<!-- [运行实例>>](http://buna.bacx.io/run.html?model=Buna6_1) -->
 
 ```
 The count is:0

@@ -54,48 +54,48 @@
             'var b = 10;\n' +
             'var c = 0;\n' +
             'c = a + b;\n' +
-            'print "1 - c的值为:"+ c;\n' +
+            'print "c的值为:"+ c;\n' +
             'c = a - b;\n' +
-            'print "2 - c的值为:"+ c;\n' +
+            'print "c的值为:"+ c;\n' +
             'c = a * b;\n' +
-            'print "3 - c的值为:"+ c;\n' +
+            'print "c的值为:"+ c;\n' +
             'c = a / b;\n' +
-            'print "4 - c的值为:"+ c;',
+            'print "c的值为:"+ c;',
         'Buna4_2': 'var a = 21;\n' +
             'var b = 10;\n' +
             'var c = 0;\n' +
             'if (a == b)\n' +
-            '    print "1 - a等于b"; \n' +
+            '    print "a等于b"; \n' +
             'else\n    ' +
-            'print"1-a不等于b"; \n' +
+            'print"a不等于b"; \n' +
             'if (a != b)\n    ' +
-            '   print "2 - a不等于b"; \n' +
+            '   print "a不等于b"; \n' +
             'else\n    ' +
-            '   print"2-a等于b"; \n' +
+            '   print"a等于b"; \n' +
             'if (a < b)\n' +
-            '    print"4-a⼩于b"; \n' +
+            '    print"a⼩于b"; \n' +
             'else\n    ' +
-            '   print"4-a⼤于等于b"; \n' +
+            '   print"a⼤于等于b"; \n' +
             'if (a > b)\n    ' +
-            '   print "5 - a⼤于b"; \n' +
+            '   print "a⼤于b"; \n' +
             'else\n    ' +
-            '   print"5-a⼩于等于b"; \n' +
+            '   print"a⼩于等于b"; \n' +
             '// change a value and b value \n' +
             'a = 5;\n' +
             'b = 20;\n' +
             'if (a <= b)\n    ' +
-            '   print "6 - a⼩于等于b"; \n' +
+            '   print "a⼩于等于b"; \n' +
             'else\n    ' +
-            '   print"6-a⼤于b"; \n' +
+            '   print"a⼤于b"; \n' +
             'if (b >= a)\n    ' +
-            '   print "7 - b⼤于等于a"; \n' +
+            '   print "b⼤于等于a"; \n' +
             'else\n' +
-            '   print "7 - b⼩于a";',
+            '   print "b⼩于a";',
         'Buna5_1': 'var name = "bill";\n' +
-            'if (name == "buns") //判断变量否为python\n' +
-            '   print "welcome boss"; //并输出欢迎信息\n' +
+            'if (name == "buns") //判断变量否为buns\n' +
+            '   print "welcome boss"; //条件成立输出欢迎信息\n' +
             'else\n' +
-            '   print name; //条件不成⽴时输出变量名称\n',
+            '   print name; //条件不成⽴时输出变量值\n',
         'Buna6_1': 'var count = 0;\n' +
             'while (count <9){\n' +
             '   print "The count is:"+count ;\n' +
@@ -148,7 +148,7 @@
         var result = content.replace(/\n/g, "\\n");
 
         var httpRequest = new XMLHttpRequest();
-        httpRequest.open('POST', 'http://10.0.248.208:3000/buna', true);
+        httpRequest.open('POST', 'https://buna.bacx.io/buna', true);
         httpRequest.setRequestHeader('content-type', 'application/json');
         httpRequest.send(JSON.stringify({
             code: result
