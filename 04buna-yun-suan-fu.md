@@ -100,9 +100,9 @@ else:
 <!-- 本地 -->
 <!-- [运行实例>>](http://127.0.0.1:4000/run.html?model=Buna4_2) -->
 <!-- 测试 -->
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna4_2)
+<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna4_2) -->
 <!-- 生产 -->
-<!-- [运行实例>>](http://buna.bacx.io/run.html?model=Buna4_2) -->
+[运行实例>>](http://buna.bacx.io/run.html?model=Buna4_2)
 
 以上实例输出结果：
 
