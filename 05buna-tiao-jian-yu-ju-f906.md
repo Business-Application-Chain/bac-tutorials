@@ -4,7 +4,7 @@ bună条件语句是通过⼀条或多条语句的执行结果\(true或者false\
 
 可以通过下图来简单了了解条件语句的执行过程:
 
-<img src="./assets/if.jpg" alt = "if" title = "if-png" width = "300" height="400"/>
+<img src="./assets/if.png" alt = "if" title = "if-png" width = "446" height="400"/>
 
 bună程序语言指定任何⾮0和非空\(null\)值为true，0或者null为false。
 
@@ -29,7 +29,7 @@ else
    print name; //条件不成⽴时输出变量值
 ```
 
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna5_1)
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna5_1)
 
 
 输出结果为：

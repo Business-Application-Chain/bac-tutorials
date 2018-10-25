@@ -14,7 +14,7 @@ for (var i = 0; i <10; i++) {
 
 **流程图:**
 
-<img src="./assets/for.png" alt = "for" title = "for-png" width = "400" height="400"/>
+<img src="./assets/for.png" alt = "for" title = "for-png" width = "446" height="400"/>
 
 ```
 for (var i=0;i<3;i=i+1){ //第⼀个实例
@@ -22,7 +22,7 @@ for (var i=0;i<3;i=i+1){ //第⼀个实例
 }
 ```
 
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna7_1)
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna7_1)
 
 输出结果为：
 

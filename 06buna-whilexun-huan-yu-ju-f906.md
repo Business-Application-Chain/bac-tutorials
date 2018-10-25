@@ -13,7 +13,7 @@ while(判断条件) {
 当判断条件假false时，循环结束。  
 执⾏流程图如下:
 
-<img src="./assets/while.png" alt = "while" title = "while-png" width = "300" height="400"/>
+<img src="./assets/while.png" alt = "while" title = "while-png" width = "446" height="400"/>
 
 ```
 var count = 0;
@@ -23,7 +23,7 @@ while (count <9){
 print "Good bye!";
 ```
 
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna6_1)
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna6_1)
 
 ```
 The count is:0
