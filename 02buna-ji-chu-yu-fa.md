@@ -11,19 +11,23 @@ bună语言与Perl，C和Javascript等语⾔有许多相似之处。但是，也
 交互式编程不需要创建脚本文件，是通过bună解释器的交互模式进来编写代码。
 
 只需要在命令⾏中输入bună命令即可启动交互式编程,提示窗口如下:
-
-![](/assets/1539151704796.jpg)
+```
+Buna 0.4.8 (default, Sep 28 2018, 15:04:36)
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>
+```
 
 在bună提示符中输入以下⽂本信息，然后按Enter键查看运行效果:
 
 ```
-> print "Hello, bună!";
+> print "Hello, world!";
 ```
 
 在bună 0.4.8版本中,以上实例输出结果如下:
 
 ```
-Hello, bună!
+Hello, world!
 ```
 
 #### 脚本式编程
@@ -33,13 +37,13 @@ Hello, bună!
 让我们写一个简单的bună脚本程序。所有bună⽂件将以.buna为扩展名。将以下的源代码拷⻉至test.buna文件中。
 
 ```
->print "Hello, bună!";
+>print "Hello, world!";
 ```
 
 输出结果：
 
 ```
- Hello, bună!
+ Hello, world!
 ```
 
 #### bună 标识符
@@ -82,7 +86,7 @@ bună中单行注释采用//开头。
 
 ```
 // Frist comment
-print "Hello, Python!”;
+print "Hello, world!”;
 ```
 
 

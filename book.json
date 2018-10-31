@@ -1,5 +1,19 @@
 {
-    "styles":{
-        "website":"./website.css"
+    "styles": {
+        "website": "./website.css"
+    },
+    "plugins": [
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "./assets/images/logo.ico",
+            "bookmark": "./assets/images/logo.ico",
+            "appleTouch": "./assets/images/logo.png",
+            "appleTouchMore": {
+                "120x120": "./assets/images/logo.png",
+                "180x180": "./assets/images/logo.png"
+            }
+        }
     }
 }

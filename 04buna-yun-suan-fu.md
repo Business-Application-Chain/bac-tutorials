@@ -32,7 +32,8 @@ print "c的值为:"+ c;
 c = a / b;
 print "c的值为:"+ c;
 ```
-[运行实例>>](https://buna.bacx.io/run.html?model=Buna4_1)
+[运行实例>>](http://10.0.248.222:86?model=Buna4_1)
+<!-- [运行实例>>](https://buna.bacx.io/run.html?model=Buna4_1) -->
 
 
 以上实例输出结果:
@@ -46,7 +47,7 @@ c的值为:2.1
 
 #### bună ⽐较运算符
 
-以下假设变量a为10，变量b为20：
+以下假设变量 **a=10，b=20**：
 
 | 运算符 | 描述 | 实例 |
 | :--- | :--- | :--- |
@@ -92,6 +93,7 @@ else:
     print "b⼩于a”;
 ```
 
+<!-- [运行实例>>](http://10.0.248.222:86?model=Buna4_2) -->
 [运行实例>>](https://buna.bacx.io/run.html?model=Buna4_2)
 
 以上实例输出结果：
