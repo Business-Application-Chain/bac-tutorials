@@ -32,8 +32,8 @@ print "c的值为:"+ c;
 c = a / b;
 print "c的值为:"+ c;
 ```
-[运行实例>>](http://10.0.248.222:86?model=Buna4_1)
-<!-- [运行实例>>](https://buna.bacx.io/run.html?model=Buna4_1) -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna4_1) -->
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna4_1)
 
 
 以上实例输出结果:
@@ -93,7 +93,7 @@ else:
     print "b⼩于a”;
 ```
 
-<!-- [运行实例>>](http://10.0.248.222:86?model=Buna4_2) -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna4_2) -->
 [运行实例>>](https://buna.bacx.io/run.html?model=Buna4_2)
 
 以上实例输出结果：
