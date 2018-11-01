@@ -24,8 +24,8 @@ var name = "John"; // string
 print miles;
 print name;
 ```
-<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna3_1) -->
-[运行实例>>](https://buna.bacx.io/run.html?model=Buna3_1)
+[运行实例>>](http://10.0.248.222:86/run.html?model=Buna3_1)
+<!-- [运行实例>>](https://buna.bacx.io/run.html?model=Buna3_1) -->
 
 以上实例中，1000.0和"John"分别赋值给miles，name变量。
 
