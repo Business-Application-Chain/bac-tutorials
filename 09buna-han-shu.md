@@ -36,8 +36,8 @@ printme("我要调用户⾃定义函数!");
 printme("再次调用同一函数");
 ```
 
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna9_1)
-<!-- [运行实例>>](https://buna.bacx.io/run.html?model=Buna9_1) -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna9_1) -->
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna9_1)
 
 输出结果为：
 

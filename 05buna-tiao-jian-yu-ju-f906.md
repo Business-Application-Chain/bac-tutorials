@@ -29,8 +29,8 @@ else
    print name; //条件不成⽴时输出变量值
 ```
 
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna5_1)
-<!-- [运行实例>>](https://buna.bacx.io/run.html?model=Buna5_1) -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna5_1) -->
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna5_1)
 
 
 输出结果为：

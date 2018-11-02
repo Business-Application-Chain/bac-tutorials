@@ -70,8 +70,8 @@ puppy.setAge(1);
 puppy.getAge();
 ```
 
-[运行实例>>](http://10.0.248.222:86/run.html?model=Buna10_1)
-<!-- [运行实例>>](https://buna.bacx.io/run.html?model=Buna10_1) -->
+<!-- [运行实例>>](http://10.0.248.222:86/run.html?model=Buna10_1) -->
+[运行实例>>](https://buna.bacx.io/run.html?model=Buna10_1)
 
 输出结果为： 
 
